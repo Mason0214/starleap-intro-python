@@ -39,8 +39,6 @@ Exercise 2
 Start the Python interpreter and use it as a calculator.
 
 2.1 - How many seconds are there in 42 minutes 42 seconds?
-
-
 2.2 - How many miles are there in 10 kilometers? Hint: there are 1.61 kilometers in a mile.
 
 
