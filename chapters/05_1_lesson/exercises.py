@@ -4,7 +4,17 @@
 
 print("********** Ch 5 Exercise 1 **********")
 
-# Do your work for Exercise 1 here
+
+
+
+def time_since_epoch():
+    import time 
+    t=  time.time()
+    print("t = ", t)
+    days = t / 60 / 60 / 24
+    print("days = ", days)
+    remainder = t % (days * 60 * 60 * 24)
+time_since_epoch()
 
 print("Ch 5 Exercise 1: Not implemented") # Delete this line when you write your code!
 
