@@ -36,6 +36,7 @@ while answer == 'Y' or answer== 'y':
     
 while answer == 'N' or answer== 'n':
     answer=input ('Ok.')
+    break
 
 
     
