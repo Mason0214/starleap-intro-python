@@ -1,21 +1,26 @@
-# Number Guessing Game - Guesser
-# The user thinks of a number between 1 and 100 and the program tries to guess it.
-# The user should tell the program if the guess is too high, too low, or correct.
-# The program should tell the user how many guesses it took to guess the number.
+
 
 import random
 
 
 def get_number_feedback():
-    # TODO: Implement this function
-    pass
-
+    while True:
+        feedback = input("Is my guess too high (h), too low (l), or correct (c)? ").lower()
+        if feedback in ['h', 'l', 'c']:
+            return feedback
+        else:
+            print("Invalid input. Please enter 'h', 'l', or 'c'.")      
 
 def get_number():
-    # TODO: Implement this function
-    pass
-
-
+    while True:
+        try:
+            number = int(input("Please enter the number you thought of (1-100): "))
+            if 1 <= number <= 100:
+                return number
+            else:
+                print("Please enter a number between 1 and 100.")
+        except ValueError:
+            print("Invalid input. Please enter a valid integer.")
 def play_guesser():
     MIN_NUMBER = 1
     MAX_NUMBER = 100

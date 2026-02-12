@@ -42,7 +42,7 @@ def main():
     while True:
         guess_count = play_picker()
         answer = input("Do you want to play again? (y/n) ").lower()
-        if answer == "n":
+        if answer != "y":
             print("Thanks for playing!")
             break
 
