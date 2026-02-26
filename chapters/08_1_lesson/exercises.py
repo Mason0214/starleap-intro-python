@@ -3,7 +3,7 @@
 
 print("********** Ch 8 Exercise 1 **********")
 
-# Do your work for Excercise 1 here.  
+
 
 print("Ch 8 Exercise 1: Not implemented") # Delete this line when you write your code!
 
